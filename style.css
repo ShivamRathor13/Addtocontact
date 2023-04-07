@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    margin: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+input[type="text"], input[type="tel"] {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+#card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+#cardname {
+    font-weight: bold;
+}
+
+#cardnum {
+    margin-top: 10px;
+}
+
+input[type="text"]:focus, input[type="tel"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+input[type="text"], input[type="tel"]::placeholder {
+    color: #ccc;
+}
+
+input[type="text"], input[type="tel"]:read-only::placeholder {
+    color: #aaa;
+}
